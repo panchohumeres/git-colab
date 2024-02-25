@@ -1,2 +1,12 @@
 credentials/*
 !credentials/example.py
+data/*
+### pycache ###
+*.pyc
+__pycache__/
+modules/__pycache__/
+*.py[cod]
+*$py.class
+### JupyterNotebooks checkpoints ###
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
